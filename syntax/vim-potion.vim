@@ -1,3 +1,5 @@
+echom "Entering syntax/vim-potion.vim"
+
 if exists("b:current_syntax")
   finish
 endif
