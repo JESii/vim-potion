@@ -23,7 +23,7 @@ syntax match potionOperator "\v/\="
 syntax match potionOperator "\v\+\="
 syntax match potionOperator "\v-\="
 
-syntax match potionNumber "\v\<\[0-9]*\>"
+syntax match potionNumber "\v\<[0-9]*\>"
 syntax match potionNumber "\v\<\0\x[a-f]{4}\>"
 syntax match potionNumber "\v[0-9]*\.[0-9]*"
 syntax match potionNumber "\v[1-9][0-9]*"
